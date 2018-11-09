@@ -27,7 +27,7 @@ const prefix = "!";
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag} !`);
-    client.user.setGame(`!help [Bad Omarr | RO7]`,`www.twitch.tv/v5bz`);
+    client.user.setGame(`!help [RO7]`,`www.twitch.tv/v5bz`);
   });
 client.on('ready', () => {
 var x = client.channels.get("501525740249153547");
@@ -363,15 +363,7 @@ client.on('message', message => {
 
 
  message.author.sendMessage(`
- **
-╭━━━┳╮╱╱╱╭╮╱╱╱╱╭━╮╭━╮
-┃╭━╮┃┃╱╱╱┃┃╱╱╱╱┃┃╰╯┃┃
-┃┃╱┃┃┃╭━━┫╰━┳━━┫╭╮╭╮┣╮╭┳━━┳┳━━╮
-┃╰━╯┃┃┃╭╮┃╭╮┃╭╮┃┃┃┃┃┃┃┃┃━━╋┫╭━╯
-┃╭━╮┃╰┫╰╯┃┃┃┃╭╮┃┃┃┃┃┃╰╯┣━━┃┃╰━╮
-╰╯╱╰┻━┫╭━┻╯╰┻╯╰┻╯╰╯╰┻━━┻━━┻┻━━╯
-╱╱╱╱╱╱┃┃
-╱╱╱╱╱╱╰╯
+**
 By: RO7#9078
 ╔[❖════════════❖]╗
              Prefix = ' ! '
@@ -395,7 +387,7 @@ By: RO7#9078
 ╚[❖════════════❖]╝
  ❖ !ping ➾ view my ping !  تشوف سرعة اتصال البوت
 ==================================================================
-Server support: https://discord.gg/cUgYbEr   سيرفر السيبورت
+سيرفر السيبورت
 ==================================================================
 `);
 
